@@ -46,7 +46,7 @@ The hybrid model effectively detects banana leaf diseases, offering a fast, auto
 For more details and a hands-on experience, visit the **[Banana Leaf Disease Detection Project](https://www.aionlinecourse.com/ai-projects/playground/banana-leaf-disease-detection-using-vision-transformer-model)** on Ai-projects.
 
 ---
-### **4.[Glaucoma Detection Using Deep Learning](https://www.aionlinecourse.com/ai-projects/playground/glaucoma-detection-using-deep-learning)**
+### **4. [Glaucoma Detection Using Deep Learning](https://www.aionlinecourse.com/ai-projects/playground/glaucoma-detection-using-deep-learning)**
 #### **Project Overview**
 The Glaucoma Detection project uses advanced deep learning techniques to help detect glaucoma, one of the leading causes of irreversible blindness, at an early stage. By leveraging a dataset of retinal images and employing models such as Vision Transformer, CNN, and VGG16, this project aims to improve the accuracy and efficiency of glaucoma detection, assisting ophthalmologists in making faster and more reliable diagnoses.
 
