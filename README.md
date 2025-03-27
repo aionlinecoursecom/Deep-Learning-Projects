@@ -1,4 +1,4 @@
-# Top 7+ Exciting Deep Learning Projects
+# Top 10+ Exciting Deep Learning Projects
 ### **1. [Leaf Disease Detection Using Deep Learning](https://www.aionlinecourse.com/ai-projects/playground/leaf-disease-detection-using-deep-learning)**
 #### **Project Overview**
 This project focuses on detecting and classifying leaf diseases using deep learning models to improve agricultural productivity. It leverages a dataset of leaf images, processed using OpenCV, and implements CNN-based models such as VGG16, VGG19, and EfficientNetB4.
@@ -141,5 +141,137 @@ This project provides a solid foundation for beginners in deep learning. It cove
 For more details, visit the **[Predictive Analytics on Business License Data Using Deep Learning](https://www.aionlinecourse.com/ai-projects/playground/predictive-analytics-on-business-license-data-using-deep-learning)** on AI Projects.
 
 ---
+### **10. [Brain Tumor Detection and Segmentation Using Mask R-CNN](https://www.aionlinecourse.com/ai-projects/playground/image-segmentation-using-mask-r-cnn-with-pytorch)**
+
+#### **Project Overview**  
+This project focuses on using deep learning to detect and segment brain tumors from medical images, enhancing diagnostic capabilities and enabling better treatment planning. The model leverages Mask R-CNN, fine-tuned on a brain tumor dataset, to automatically detect and segment tumor regions in brain scans.
+
+#### **Key Features**  
+- **Data Preprocessing:** Images are resized, normalized, and converted into tensors for model input. Annotations such as masks and bounding boxes are processed and aligned with the images.
+- **Model Architecture:** The model is based on a pre-trained Mask R-CNN network with a ResNet-50 backbone. Custom layers are used to adapt the model for detecting and segmenting tumors.
+- **Training and Evaluation:** The model is trained using techniques like gradient clipping to avoid exploding gradients. Performance is evaluated using segmentation masks and bounding boxes on validation images.
+- **Predictions:** The model predicts tumor masks and bounding boxes for unseen medical images, providing a reliable method for early tumor detection and segmentation.
+
+#### **Project Outcome**  
+The Brain Tumor Detection project successfully automates the detection and segmentation of brain tumors from medical scans, offering a tool that can aid healthcare professionals in early diagnosis and treatment planning. The model shows promise in improving the accuracy and efficiency of brain tumor diagnostics.
+
+For more details and a hands-on experience, visit the **[Brain Tumor Detection Project](https://www.aionlinecourse.com/ai-projects/playground/image-segmentation-using-mask-r-cnn-with-pytorch)** on AI Projects.
+
+---
+### **11. [Build a Face Recognition System Using FaceNet in Python](https://www.aionlinecourse.com/ai-projects/playground/build-a-face-recognition-system-using-facenet-in-python)**
+
+#### **Project Overview**  
+This project focuses on implementing a deep learning-based face recognition system. The system uses MTCNN for face detection and InceptionResnetV1 to extract face embeddings, enabling the comparison of faces and the determination of similarities based on cosine similarity. It can be applied in various fields such as security, authentication, and photo organization.
+
+#### **Key Features**  
+- **Data Collection:** Collect a dataset with multiple faces suitable for comparison.
+- **Face Detection:** MTCNN detects faces and landmarks in images, positioning them correctly for recognition.
+- **Face Embeddings:** InceptionResnetV1 generates unique numerical representations for each face, capturing essential facial features.
+- **Cosine Similarity:** Cosine similarity is used to compare face embeddings and determine matching faces based on a threshold.
+- **Real-time Predictions:** Search for similar faces in a folder by comparing their embeddings to a reference image, presenting results visually with cosine distance values.
+
+#### **Project Outcome**  
+The Face Recognition System successfully compares faces, finds similarities, and visualizes the results using cosine similarity. This provides a robust face recognition solution that can be used in various applications like security, authentication, and organizing photo collections.
+
+For more details and a hands-on experience, visit the **[Face Recognition Project](https://www.aionlinecourse.com/ai-projects/playground/build-a-face-recognition-system-using-facenet-in-python)** on AI Projects.
+
+---
+### **12. [Human Action Recognition Using Image Preprocessing](https://www.aionlinecourse.com/ai-projects/playground/human-action-recognition-using-image-preprocessing)**
+
+#### **Project Overview**  
+This project focuses on developing a human action recognition system using deep learning models. The goal is to classify human actions like sitting, standing, walking, and laughing from images. The dataset used consists of annotated images capturing various human actions. Pre-trained models like ResNet50 and InceptionV3 are fine-tuned to perform this classification task.
+
+#### **Key Features**  
+- **Data Preprocessing:** Resizing images to 160x160 pixels, normalizing pixel values, and enhancing contrast if necessary.
+- **Model Architecture:** Pre-trained models such as ResNet50 and InceptionV3 are fine-tuned for human action recognition.
+- **Training and Evaluation:** The models are trained with early stopping to avoid overfitting. Performance is evaluated using accuracy and confusion matrices.
+- **Visualization:** Results are visualized through graphs and performance metrics such as accuracy and confusion matrices.
+
+#### **Project Outcome**  
+The Human Action Recognition project successfully classifies human actions from images, achieving high accuracy with deep learning models like ResNet50 and InceptionV3. This can be applied in scenarios like surveillance, healthcare, and interactive systems that require action detection.
+
+For more details and a hands-on experience, visit the **[Human Action Recognition Project](https://www.aionlinecourse.com/ai-projects/playground/human-action-recognition-using-image-preprocessing)** on AI Projects.
+
+---
+### **13. [PyTorch Project to Build a GAN Model on MNIST Dataset](https://www.aionlinecourse.com/ai-projects/playground/pytorch-project-to-build-a-gan-model-on-mnist-dataset)**
+
+#### **Project Overview**  
+This project compares Vanilla GAN and WGAN models for generating realistic MNIST images. The models' performances are evaluated using qualitative metrics such as FID (Fréchet Inception Distance) and Inception Score, helping to understand which model produces better quality and diverse images.
+
+#### **Key Features**  
+- **Data Preprocessing:** The MNIST dataset is preprocessed by normalizing and resizing images to fit the model requirements.
+- **Model Architecture:** Vanilla GAN and WGAN architectures are used, both comprising a generator and discriminator. The generator creates fake images from random noise, while the discriminator distinguishes between real and fake images.
+- **Training and Evaluation:** Both models are trained using the MNIST dataset. Performance is evaluated through FID and Inception Scores to assess the quality and diversity of generated images.
+- **Visualization:** The real and generated images are displayed side by side for visual comparison. FID and Inception scores provide a quantitative evaluation of the models' abilities.
+
+#### **Project Outcome**  
+The GAN model comparison project helps to understand the strengths of Vanilla GAN and WGAN in generating high-quality and diverse images. By evaluating using metrics like FID and Inception Score, this project provides insights into which model produces more realistic images, making it useful for further GAN research and applications in image generation.
+
+For more details and a hands-on experience, visit the **[GAN Model on MNIST Dataset Project](https://www.aionlinecourse.com/ai-projects/playground/pytorch-project-to-build-a-gan-model-on-mnist-dataset)** on AI Projects.
+
+---
+### **14. [Build A Book Recommender System With TF-IDF And Clustering](https://www.aionlinecourse.com/ai-projects/playground/build-a-book-recommender-system-with-tf-idf-and-clusteringpython)**
+
+#### **Project Overview**  
+This project focuses on building a book recommendation system by clustering books based on their descriptions and metadata using machine learning techniques like TF-IDF and clustering. It processes raw data from books to generate meaningful clusters, providing a user-friendly tool that recommends similar books based on user preferences.
+
+#### **Key Features**  
+- **Data Preprocessing:** Clean and prepare the book dataset by handling missing values, removing duplicates, and normalizing text.
+- **Feature Extraction:** Use TF-IDF to convert text descriptions into numerical data that represents the importance of words in describing a book.
+- **Clustering:** Apply K-means and hierarchical clustering to group books into meaningful clusters based on similarity.
+- **Recommendation Generation:** Use cosine similarity to recommend books that are similar to a given book.
+- **Data Visualization:** Create interactive visuals such as treemaps, dendrograms, and grids to display clusters and book recommendations.
+
+#### **Technology Stack**  
+- **Programming Language:** Python
+- **Libraries:** Pandas, Scikit-learn, NLTK, Matplotlib, Seaborn, Plotly, WordCloud
+- **Clustering Algorithms:** K-Means, Hierarchical Clustering
+- **Text Processing:** TF-IDF, Stopwords Removal, Lemmatization
+- **Data Visualization:** Seaborn, Plotly, WordCloud
+
+#### **Project Outcome**  
+The Book Recommender System effectively clusters books and recommends similar titles based on content. It presents visually compelling and interactive results, making it easier for users to discover books they may enjoy, fostering better book exploration and recommendation.
+
+For more details and a hands-on experience, visit the **[Book Recommender System Project](https://www.aionlinecourse.com/ai-projects/playground/build-a-book-recommender-system-with-tf-idf-and-clusteringpython)** on AI Projects.
+
+---
+### **15. [Build Multi-Class Text Classification Models with RNN and LSTM](https://www.aionlinecourse.com/ai-projects/playground/build-multi-class-text-classification-models-with-rnn-and-lstm)**
+
+#### **Project Overview**  
+This project focuses on classifying customer complaints using advanced text classification techniques, such as RNN (Recurrent Neural Networks) and LSTM (Long Short-Term Memory) networks. It uses GloVe embeddings to process raw text data, and the models are trained to predict complaint categories like identity theft, credit card issues, and more.
+
+#### **Key Features**  
+- **Data Preprocessing:** Clean and preprocess the raw complaint text, including tokenization and removal of unwanted characters.
+- **GloVe Embeddings:** Convert text data into GloVe embeddings to maintain semantic relationships between words.
+- **Model Architecture:** Build RNN and LSTM models to predict complaint categories, leveraging PyTorch for model implementation.
+- **Training & Evaluation:** Use cross-entropy loss, Adam optimizer, and evaluate the models using accuracy, confusion matrices, and classification reports.
+- **Performance Evaluation:** After training, the models are tested using unseen data to measure their generalization performance.
+
+#### **Project Outcome**  
+The Multi-Class Text Classification project successfully classifies customer complaints using deep learning models. It demonstrates how to use RNN and LSTM networks for text classification and how GloVe embeddings can be used to represent text data effectively. The final models achieve high accuracy in classifying complaints into relevant categories.
+
+For more details and a hands-on experience, visit the **[Multi-Class Text Classification Project](https://www.aionlinecourse.com/ai-projects/playground/build-multi-class-text-classification-models-with-rnn-and-lstm)** on AI Projects.
+
+---
+### **16. [Build a Hybrid Recommender System in Python using LightFM](https://www.aionlinecourse.com/ai-projects/playground/build-a-hybrid-recommender-system-in-python-using-lightfm)**
+
+#### **Project Overview**  
+This project focuses on building a hybrid recommendation system that combines collaborative filtering and content-based filtering to suggest products to customers. It leverages the LightFM library, a popular tool for recommendation systems, to provide personalized product recommendations based on customer purchase history and product features. The system aims to enhance the shopping experience, increase customer satisfaction, and boost sales.
+
+#### **Key Features**  
+- **Collaborative Filtering:** Recommends products based on user-item interactions, such as purchase history.
+- **Content-Based Filtering:** Recommends products based on product features, customer segments, and product attributes.
+- **Hybrid Model:** Combines both collaborative and content-based filtering to generate better product recommendations.
+- **Model Evaluation:** Evaluates the model using the AUC (Area Under the Curve) metric to measure its accuracy and ranking ability.
+- **Data Visualization:** Helps visualize the customer-product interactions and model performance using various techniques.
+
+#### **Project Outcome**  
+The Hybrid Recommender System successfully combines collaborative filtering and content-based filtering to provide personalized recommendations. It improves customer satisfaction by suggesting products aligned with user preferences and product features, ultimately enhancing the overall shopping experience.
+
+For more details and a hands-on experience, visit the **[Hybrid Recommender System Project](https://www.aionlinecourse.com/ai-projects/playground/build-a-hybrid-recommender-system-in-python-using-lightfm)** on AI Projects.
+
+---
+
+
 ### **Exciting new [Deep Learning Projects](https://www.aionlinecourse.com/ai-projects/categories/deep-learning-projects) are coming soon to our website. Visit our site at [AI Projects](https://www.aionlinecourse.com/ai-projects) to learn the latest projects and stay connected with us!**
 ---
